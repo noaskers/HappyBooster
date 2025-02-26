@@ -1,0 +1,7 @@
+name: HappyBoosters
+version: '0.1-BETA'
+main: nl.noaskers.happyBoosters.HappyBoosters
+api-version: '1.21'
+authors: [ Sven ]
+commands:
+  booster:

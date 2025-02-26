@@ -1,0 +1,29 @@
+# Gradle specific
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Java specific
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+
+# Operating system specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# Other files
+*.bak
+*.swp
+*.swo

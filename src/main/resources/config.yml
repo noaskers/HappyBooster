@@ -1,0 +1,46 @@
+boosters:
+  1:
+    name: "Shop"
+    lore:
+      - "blablalba"
+      - "blablalba"
+    multiplier: 2 # 2x multiplier
+    time: 1h # 1 uur
+    activeer-bericht:
+      - ""
+      - "&aBOOSTER ACTIEF"
+      - "balblal"
+    commands: # Commands die worden uitgevoerd als de booster actief is.
+      - "lp group default permission settemp shop.booster.{multiplier} {time}"
+
+
+
+
+messages:
+    prefix: "&8[&6HappyBoosters&8] &7"
+    no-permission: "&cJe hebt geen toestemming om dit te doen."
+    no-args: "&cGebruik: /booster <speler> <booster>"
+    no-player: "&cSpeler niet gevonden."
+    no-booster: "&cBooster niet gevonden."
+    booster-activated: "&aBooster geactiveerd."
+    booster-deactivated: "&cBooster gedeactiveerd."
+    booster-already-active: "&cDeze speler heeft al een booster actief."
+    booster-not-active: "&cDeze speler heeft geen booster actief."
+    booster-not-own: "&cJe hebt geen booster van deze speler."
+    booster-own: "&aJe hebt een booster van deze speler."
+    booster-own-activated: "&aJe hebt een booster geactiveerd."
+    booster-own-deactivated: "&cJe hebt een booster gedeactiveerd."
+    booster-own-already-active: "&cJe hebt al een booster actief."
+    booster-own-not-active: "&cJe hebt geen booster actief."
+    booster-own-not-own: "&cJe hebt geen booster van deze speler."
+    booster-own-own: "&aJe hebt een booster van jezelf."
+    booster-own-own-activated: "&aJe hebt je eigen booster geactiveerd."
+    booster-own-own-deactivated: "&cJe hebt je eigen booster gedeactiveerd."
+    booster-own-own-already-active: "&cJe hebt al je eigen booster actief."
+    booster-own-own-not-active: "&cJe hebt geen eigen booster actief."
+    booster-own-own-not-own: "&cJe hebt geen eigen booster."
+    booster-own-own-own: "&cJe kan je eigen booster niet activeren."
+    booster-own-own-own-activated: "&cJe kan je eigen booster niet deactiveren."
+    booster-own-own-own-deactivated: "&cJe kan je eigen booster niet deactiveren."
+    booster-own-own-own-already-active: "&cJe kan je eigen booster niet activeren."
+    booster-own-own-own-not-active: "&cJe kan je eigen booster niet deactiveren."
